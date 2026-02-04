@@ -1,4 +1,4 @@
-package FileIO;
+package bytestreaming;
 
 import java.io.*;
 
