@@ -81,4 +81,4 @@ java <classname>
 
 ## Author
 
-Aashish Adhikari
+[**Aashish Adhikari**](https://adhikari-aashish.com.np/)
