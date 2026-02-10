@@ -9,6 +9,7 @@ class Animal {
 
 // Child class
 public class InMethod extends Animal {
+    @Override
     public void walks() {
         System.out.println("I don't walk. I run.");
     }

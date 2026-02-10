@@ -5,8 +5,10 @@ public class Stat {
     public static void main(String[] args) {
         // int array[] = { 2, 3, 4, 7, 9 };
         // findMean(array, 10);
-        int arr[] = { 4, 6, 3, 2, 3, 8, 9, 4, 1, 5 };
-        findMean(arr, 45);
+        // int arr[] = { 4, 6, 3, 2, 3, 8, 9, 4, 1, 5 };
+        int hw[] = { 2, 8, 14, 20 };
+        findMean(hw, 6);
+        // findMean(arr, 45);
     }
 
     public static void findMean(int[] array, int combination) {
@@ -23,19 +25,17 @@ public class Stat {
             float s1 = 0f;
             for (int i = k + 1; i < max; i++) {
                 s1 = (array[k] + array[i]) / 2f;
-
                 System.out.println(array[k] + "," + array[i] + " = " + s1);
                 samplemeanarray[j] = s1;
                 j++;
             }
         }
-        sum = 0;
+        // check below this
+        float samplemean = 0;
         for (float f : samplemeanarray) {
-            sum += f;
+            f = (float) f * (1f / combination);
+            samplemean += f;
         }
-
-        float samplemean = sum / 10f;
         System.out.println("\nSample Mean = " + samplemean);
-
     }
 }
