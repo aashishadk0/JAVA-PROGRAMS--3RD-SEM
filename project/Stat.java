@@ -1,4 +1,4 @@
-package projects;
+package project;
 
 //This program can be used for unbiased sampling in statistics when sample size is 2.
 public class Stat {
