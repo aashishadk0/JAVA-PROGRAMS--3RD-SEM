@@ -2,6 +2,7 @@
   "java.debug.settings.onBuildFailureProceed": true,
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "JDBC/lib/mysql-connector-j-9.2.0.jar"
+    "JDBC/lib/mysql-connector-j-9.2.0.jar",
+    "c:\\Users\\NITRO V15\\Downloads\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0.jar"
   ]
 }
